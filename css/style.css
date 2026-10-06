@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #DCEEFF;
+}
+
+.float {
+    float: left;
+}
+
+.span-colored
+{
+    color: #0B65AD;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.padd-left
+{
+    padding-left: 20px;
+}
+
+.margin-auto
+{
+    margin: auto;
+}
+
+.border-radius
+{
+    border-radius: 15px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+a
+{
+    display: inline-block;
+}
+
+.container {
+    width: 60%;
+}
+
+.header {
+    background-color: #18487B;
+    padding: 25px;
+}
+
+.header h1 {
+    color: white;
+    margin: 10px 0px;
+}
+
+.header p {
+    color: white;
+    font-size: 10px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+    font-size: 10px;
+    background-color: #2A5685;
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: 1px solid #54779D;
+}
+
+.about_me {
+    background-color: white;
+    display: flow-root;
+    margin: 20px 0px;
+    border: 1px solid #E2E8F0;
+}
+
+.title-section
+{
+    width: 95%;
+    color: #0B3D73;
+    padding: 20px 20px 20px 0;
+    border-bottom: 1px solid #DCEEFF;
+}
+
+.about_me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 25px;
+}
+
+.about_me p {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.about_me a {
+    text-decoration: none;
+    color: white;
+    background-color: #0B65AD;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.my_skills {
+    display: flow-root;
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    margin-bottom: 20px;
+}
+
+
+.skill {
+    width: 25%;
+    padding: 10px;
+
+}
+
+.skills-container
+{
+    display: flow-root;
+    padding: 0px 20px;
+}
+
+.inner
+{
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.my_experience
+{
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.card
+{
+    margin: 20px 20px;
+    border-left: 5px solid #0B65AD;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+    border-right: 1px solid #E2E8F0;
+    display: flow-root;
+}
+
+.card img
+{
+    width: 100px;
+    float: left;
+    border: 1px solid #E2E8F0;
+    margin: 20px;
+}
+
+
+.l-p /* l-p => last paragrapgh in card class */
+{
+    padding: 0 0 20px 20px;
+}
+
+.stop-float
+{
+    clear: both;
+}
+
+.my_contact
+{
+    background-color: #18487B;
+    margin-bottom: 20px;
+}
+
+.my_contact h2
+{
+    width: 95%;
+    color: white;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+
+.my_contact p
+{
+    color: white;
+}
+.my_contact a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 20px 0px;
+    font-size: 10px;
+    background-color: #305B88;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: 1px solid #6384A6;
+}
+
+.footer
+{
+    padding: 20px 0px;
+    color: white;
+    background-color: #071A35;
+}
+
+.footer span
+{
+    color: #7BC8FF;
+}
